@@ -1,0 +1,27 @@
+Tomcat:
+  port: 8099
+  asyncTimeout: 60000
+
+logging:
+  level:
+    org.springframework: INFO
+    com.vijay.learn: TRACE
+
+spring:
+  profiles: test
+
+mongo:
+  dbname:
+  host: localhost
+  port: 27017
+  replicaHosts:
+  user:
+  password:
+  useReplicas: false
+  connectionsPerHost: 120
+  threadsAllowedToBlock: 2
+  connectTimeout: 1000
+  maxWaitTime: 1900
+  socketKeepAlive: true
+  replicaSetName: demo
+  useScram: false

@@ -1,0 +1,13 @@
+{
+    "folders": [
+		{
+			"path": "C:\\dev\\VS"
+		}
+	],
+	"settings": {
+		"search.exclude": {
+			"**/node_modules": false,
+			"**/bower_components": false
+		  }
+	}
+}
