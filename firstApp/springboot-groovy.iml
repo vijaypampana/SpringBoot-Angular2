@@ -31,15 +31,31 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-beans:4.3.14.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-webmvc:4.3.14.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-expression:4.3.14.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.codehaus.groovy:groovy-all:2.4.12" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-data-jpa:1.5.10.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-aop:1.5.10.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.aspectj:aspectjweaver:1.8.13" level="project" />
+    <orderEntry type="library" name="Maven: org.hibernate:hibernate-core:5.0.12.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.hibernate.javax.persistence:hibernate-jpa-2.1-api:1.0.0.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.javassist:javassist:3.21.0-GA" level="project" />
+    <orderEntry type="library" name="Maven: antlr:antlr:2.7.7" level="project" />
+    <orderEntry type="library" name="Maven: org.jboss:jandex:2.0.0.Final" level="project" />
+    <orderEntry type="library" name="Maven: dom4j:dom4j:1.6.1" level="project" />
+    <orderEntry type="library" name="Maven: org.hibernate.common:hibernate-commons-annotations:5.0.1.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.hibernate:hibernate-entitymanager:5.0.12.Final" level="project" />
+    <orderEntry type="library" name="Maven: javax.transaction:javax.transaction-api:1.2" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.data:spring-data-jpa:1.11.10.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.data:spring-data-commons:1.13.10.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-orm:4.3.14.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-tx:4.3.14.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.25" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:jcl-over-slf4j:1.7.25" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-aspects:4.3.14.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-data-mongodb:1.5.10.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.mongodb:mongodb-driver:3.4.3" level="project" />
     <orderEntry type="library" name="Maven: org.mongodb:mongodb-driver-core:3.4.3" level="project" />
     <orderEntry type="library" name="Maven: org.mongodb:bson:3.4.3" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.data:spring-data-mongodb:1.10.10.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework:spring-tx:4.3.14.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework.data:spring-data-commons:1.13.10.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.25" level="project" />
-    <orderEntry type="library" name="Maven: org.slf4j:jcl-over-slf4j:1.7.25" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-jdbc:1.5.10.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.apache.tomcat:tomcat-jdbc:8.5.27" level="project" />
     <orderEntry type="library" name="Maven: org.apache.tomcat:tomcat-juli:8.5.27" level="project" />
@@ -57,7 +73,7 @@
     <orderEntry type="library" name="Maven: org.apache.tomcat:tomcat-annotations-api:8.5.27" level="project" />
     <orderEntry type="library" name="Maven: org.apache.tomcat.embed:tomcat-embed-el:8.5.27" level="project" />
     <orderEntry type="library" name="Maven: org.apache.tomcat.embed:tomcat-embed-websocket:8.5.27" level="project" />
-    <orderEntry type="library" name="Maven: com.h2database:h2:1.4.196" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.h2database:h2:1.4.196" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework.security:spring-security-test:4.2.4.RELEASE" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework.security:spring-security-core:4.2.4.RELEASE" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: aopalliance:aopalliance:1.0" level="project" />
@@ -108,6 +124,7 @@
     <orderEntry type="library" scope="RUNTIME" name="Maven: com.nimbusds:nimbus-jose-jwt:3.1.2" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: org.bouncycastle:bcprov-jdk15on:1.51" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: com.google.code.gson:gson:2.8.2" level="project" />
+    <orderEntry type="library" name="Maven: com.oracle:ojdbc7:12.1.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: de.flapdoodle.embed:de.flapdoodle.embed.mongo:1.50.5" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: de.flapdoodle.embed:de.flapdoodle.embed.process:1.50.2" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: commons-io:commons-io:2.4" level="project" />
@@ -115,6 +132,5 @@
     <orderEntry type="library" scope="TEST" name="Maven: net.java.dev.jna:jna:4.2.2" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: net.java.dev.jna:jna-platform:4.2.2" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.apache.commons:commons-compress:1.10" level="project" />
-    <orderEntry type="library" name="Maven: org.codehaus.groovy:groovy-all:2.4.12" level="project" />
   </component>
 </module>
