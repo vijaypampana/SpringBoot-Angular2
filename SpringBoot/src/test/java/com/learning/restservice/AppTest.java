@@ -1,4 +1,4 @@
-package org.example;
+package com.learning.restservice;
 
 import static org.junit.Assert.assertTrue;
 
